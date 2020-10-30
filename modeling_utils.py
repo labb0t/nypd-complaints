@@ -61,8 +61,10 @@ def get_classifier_performance(X,y,model,preprocessor):
 
     cf_matrix = confusion_matrix(y, y_cv_pred)
     sns.heatmap(cf_matrix/np.sum(cf_matrix), annot=True, 
-                fmt='.0%', cmap='Purples')
-    plt.title('Correlation Matrix')
+                fmt='.0%', cmap='YlGnBu', annot_kws={"fontsize":14}, cbar = False)
+    plt.ylabel("Actual Label")
+    plt.xlabel("Predicted Label")
+    plt.title('Confusion Matrix')
     
     # plot roc curve
     clf_roc_auc = roc_auc_score(y, y_cv_pred)
