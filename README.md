@@ -37,10 +37,10 @@ However exploratory data analysis and discovery of feature importance in my mode
 
 **Other:**
 - PostgreSQL
-- D3
 - Python
 - Scikit-learn
 - Pandas
 - Matplotlib
 - Seaborn
+- D3 (via Observable)
 - CensusData
