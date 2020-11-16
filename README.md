@@ -4,7 +4,7 @@
 The goal of this project was to explore the recently released CCRB dataset from [Pro Publica](https://www.propublica.org/datastore/dataset/civilian-complaints-against-new-york-city-police-officers), to investigate trends in CCRB complaint characteristics and rulings, and use classification methodologies to see whether CCRB rulings can be predicted, and build understanding of what factors influence CCRB decisions.
 
 ## Context
-The CCRB The NYC Civilian Complaint Review Board (CCRB) is the oversight agency of NYPD. It investigates complaints of misconduct against America's largest police force. CCRB data was inaccessible to the public until recently. In the wake of national protests against police brutality, a state law protecting their secrecy was repealed in June 2020, enabling the public to access and review decades of complaints against the NYPD. My hope in exploring this data is to build understanding and awareness of how this mechanism for police accountability works (or falls short).
+The NYC Civilian Complaint Review Board (CCRB) is the oversight agency of NYPD. It investigates complaints of misconduct against America's largest police force. CCRB data was inaccessible to the public until recently. In the wake of national protests against police brutality, a state law protecting their secrecy was repealed in June 2020, enabling the public to access and review decades of complaints against the NYPD. My hope in exploring this data is to build understanding and awareness of how this mechanism for police accountability works (or falls short).
 
 ## Methodologies
 1. Created a postgreSQL database to store the complaints data (accessed from Pro Publica) locally.
