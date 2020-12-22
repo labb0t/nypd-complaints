@@ -23,7 +23,7 @@ Ultimately I was able to predict whether the CCRB would rule that a given compla
 However exploratory data analysis and discovery of feature importance in my models did point to some trends that may be worth further investigeation.  And some of the most important takeaways from this dataset are descriptive: 
 - Some officers have accumulated over 60  complaints from civilians in less than 20 years on the force. These officers are all still active NYPD members as of Summer 2020.
 - Black and and Hispanic complainants are overrepresented compared to the overall NYC population.
-- Complaints filed by Black and Hispanic folks were less likely to be ruled as officers violating rules.
+- Complaints filed by Black and Hispanic folks were less likely to be ruled as officers violating rules. However this disparity did not hold when controlling for all other variables (see logistic regression analysis in [this notebook](https://github.com/labb0t/nypd-complaints/blob/main/logreg_racial_disparity_rulings.ipynb)) 
 
 ## Tools and Approaches Used
 **Classification Algorithms and Metrics:**
@@ -39,6 +39,7 @@ However exploratory data analysis and discovery of feature importance in my mode
 - PostgreSQL
 - Python
 - Scikit-learn
+- Statsmodel
 - Pandas
 - Matplotlib
 - Seaborn
