@@ -11,7 +11,7 @@ The NYC Civilian Complaint Review Board (CCRB) is the oversight agency of NYPD. 
 2. Pulled precinct-level demographic data from the US Census using the [CensusData](https://pypi.org/project/CensusData/) package. I also used [this key created by John Keefe](https://johnkeefe.net/nyc-police-precinct-and-census-data) to link block-level census data to police precincts.
 3. Used pandas for data processing, feature engineering, and exploratory data analysis.
 4. Tested the performance of six different classification models on the data; creating two different models to better represent the structure of CCRB rulings. Random Forest performed best on both models.
-5. Optimized, evaluated, and selected the best model; which was Random Forest for both models.
+5. Optimized, evaluated, and selected the best model, which was Random Forest for both models.
 6. Explored feature importance.
 7. Created some interactive visualizations in D3 using observablehq to help folks better more intuitively understand some of my findings.
     - [Sankey Diagram of complaints pipeline](https://observablehq.com/d/1d11da02acbb7e56)
@@ -33,7 +33,7 @@ However exploratory data analysis and discovery of feature importance in my mode
 - Gaussian Naive Bayes
 - SVC
 - ROC-AUC curve
-- Connfusion matrix
+- Confusion matrix
 
 **Other:**
 - PostgreSQL
